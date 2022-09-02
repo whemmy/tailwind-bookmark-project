@@ -41,5 +41,78 @@
         </div>
       </div>
     </nav>
+    <!-- Hero section -->
+    <section id="hero">
+      <!-- Container for image and content  -->
+      <div
+        class="container flex flex-col-reverse p-6 mx-auto lg:flex-row lg:mb-0"
+      >
+        <!-- Content -->
+        <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+          <h1
+            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
+          >
+            A simple Bookmark Manager
+          </h1>
+          <p
+            class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
+          >
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <!-- buttons container  -->
+          <div
+            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
+          >
+            <a
+              href="#"
+              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-softBlue md:text-base hover:bg-white hover:text-softBlue border-2"
+              >Get It On Chrome</a
+            >
+            <a
+              href="#"
+              class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-gray-300 md:text-base hover:bg-white hover:text-gray-600 border-2"
+              >Get It On Firefox</a
+            >
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg-w-1/2">
+          <div class="bg-hero"></div>
+          <img
+            src="./images/illustration-hero.svg"
+            alt=""
+            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="container mx-auto mt-16 px-6 md:mx-0">
+        <h2 class="mb-6 text-4xl font-semibold text-center">Features</h2>
+        <p class="max-w-md mx-auto text-center text-grayishBlue">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+    </section>
+    <!-- features Tab -->
+    <section id="tabs">
+      <!-- Tabs Container -->
+      <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
+        <div class="bg-tabs"></div>
+        <!-- Tabs flex container -->
+        <div
+          class="flex flex-col justify-centermax-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+        >
+          <!-- Tab 1 -->
+          <div class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed tab md:w-1/3">
+            <div class="py-5 border-b-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
