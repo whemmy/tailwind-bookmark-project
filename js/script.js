@@ -10,6 +10,11 @@ tabs.forEach((tab) => {
  tab.addEventListener('click', onTabClick)
 })
 
+// Hamburger event-listener
+
+btn.addEventListener('click', navToggle)
+
+
 function onTabClick(e) {
  // Deactivate all tabs
  tabs.forEach((tab) => {
